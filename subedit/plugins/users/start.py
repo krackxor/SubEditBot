@@ -28,8 +28,8 @@ START_BUTTON = [
             callback_data="START_EDIT_MENU"
         ),
         InlineKeyboardButton(
-            "🔭 Source",
-            url="https://github.com/anzilr/SubEditBot",
+            "🤴 Owner",
+            url="https://t.me/ItsTrueOk",
         )
     ],
 ]
@@ -51,7 +51,7 @@ GOBACK_2_BUTTON = [[InlineKeyboardButton("🔙 Go Back", callback_data="COMMAND_
 async def start(_, message: Message):
     await database.saveUser(message.from_user)
     await message.reply_photo(
-        photo="https://imgur.com/kmoXW3U"
+        photo="https://i.imgur.com/TA0sNXS.jpeg"
 
     )
     return await message.reply_text(
