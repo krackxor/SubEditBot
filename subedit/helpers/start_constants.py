@@ -52,7 +52,7 @@ ABOUT_CAPTION = f"""• Python version : {__python_version__}
 • pyrogram  version : {__pyro_version__}
 • License : {__license__}
 
-**Github Repo**: https://github.com/anzilr/SubEditBot"""
+"""
 
 
 START_CAPTION = """
@@ -80,6 +80,6 @@ And that’s just the tip of the iceberg! SubEditBot can do a lot more than that
 
 Enjoy your editing adventures with SubEditBot! 📽️😄
 
-Contact 👨🏽‍💻 [Anzil R](t.me/anzilr) to report any bugs or feature requests."""
+Owner 🤴 [Luffy](https://t.me/ItsTrueOk)"""
 
 COMMAND_CAPTION = """**Here are the list of commands which you can use in bot.\n**"""
